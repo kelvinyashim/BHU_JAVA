@@ -8,8 +8,8 @@ public class Formulas extends Physics {
     float mutiply(float num1, float num2) {
         return super.mutiply(num1, num2);
     }
-    float Velocity(float d, float t){
-       return mutiply(d,t);
+    float Force(float m, float a){
+       return mutiply(m,a);
     }
 
 
