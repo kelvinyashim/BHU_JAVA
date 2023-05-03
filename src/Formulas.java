@@ -11,6 +11,10 @@ public class Formulas extends Physics {
     float Force(float m, float a){
        return mutiply(m,a);
     }
+       float PEnergy(float m, float h){
+         return mutiply(m,h * getGravity());
+    }
+
 
 
 }
