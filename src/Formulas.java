@@ -17,5 +17,7 @@ public class Formulas extends Physics {
      float KEnergy(float m, float v){
           return divide(1,2) * multiply(m,powTwo(v));
           }
-
+     float gravitationalEnergy(float m , float g , float h){
+          return multiply(m,g,h);
+     }
 }
